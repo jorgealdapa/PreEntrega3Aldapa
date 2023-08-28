@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.contactP{
+    text-decoration: none;
+
+}
+
+.icoContacto{
+    margin: 0px 20px ;
+    color: rgb(2, 2, 2);
+    transition: .3s;
+  }
+  
+  .icoContacto:hover{
+    color: rgb(143, 143, 143);
+    transform: scale(1.3);
+    cursor: pointer; 
+}
+
+label{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.formulario{
+    border-radius: 0px;
+    background-color: rgb(240, 240, 240);
+    border: 0;
+
+}
+
+.btnForm{
+    font-family: Inter;
+    font-size: 15px;
+    letter-spacing: .3px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border:0;
+    padding: 8px 40px;
+    transition: 0.3s;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.btnForm:hover{
+    background-color: $colorTextoSecundario;
+    transform: scale(1.1);
+
+}
