@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap");
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+footer {
+  margin-top: auto;
+}
+
+::selection {
+  background-color: rgb(208, 255, 0);
+  color: rgb(129, 129, 129);
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  padding: 30px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logotip {
+  width: 150px;
+}
+
+.barranav a {
+  font-family: Inter;
+  font-size: 15px;
+  color: rgb(40, 40, 40);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  transition: 0.3s;
+}
+.barranav a:hover {
+  color: gray;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px 20px 0px;
+  background-color: black;
+}
+footer .footerColumna {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  width: 150px;
+}
+footer p {
+  text-align: center;
+  font-size: 13px;
+  font-family: Inter;
+  color: white;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+footer i {
+  margin: 0px 20px;
+  color: white;
+  transition: 0.3s;
+}
+footer i:hover {
+  color: rgb(143, 143, 143);
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+/* whatsapp boton */
+.botonWapp {
+  background-color: #cccccc;
+  padding: 13px 16px;
+  border-radius: 100px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: 0.3s;
+}
+.botonWapp:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #068f38;
+}
+.botonWapp:hover i {
+  color: white;
+}
+.botonWapp i {
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.imagenmarcas {
+  display: block;
+  width: 150px;
+  filter: contrast(0%);
+  padding-top: 15px;
+  transition: 0.3s;
+}
+
+.imagenmarcas:hover {
+  filter: none;
+}
+
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.proyectos-col {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+}
+
+.proyectos-col img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.proyectos-col img:hover {
+  transform: scale(1.1);
+}
+
+.comunicate {
+  background-color: rgb(255, 255, 255);
+}
+.comunicate p {
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.btnPrimario {
+  font-family: Inter;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  color: white;
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  padding: 15px 40px;
+  transition: 0.3s;
+}
+.btnPrimario a {
+  text-decoration: none;
+  color: white;
+}
+
+.btnPrimario:hover {
+  background-color: rgb(91, 91, 91);
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 45px;
+  font-family: Inter;
+  font-weight: 800;
+  color: black;
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 15px 0px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  font-family: Inter;
+  font-weight: 400;
+  padding: 15px 0px;
+}
+
+.imgServicios {
+  width: 400px;
+}
+
+.marcasnosotros {
+  width: 200px;
+  padding: 20px;
+  filter: contrast(0%);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  align-content: center;
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.grid-item img:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
